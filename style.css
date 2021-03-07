@@ -1,0 +1,101 @@
+html {
+    font-size: 62.5%;
+}
+@media only screen and (max-width: 600px) {
+    html {font-size: 20%;}
+    button {font-size: 20%;}
+    .smartwifi div img {width: 50%;,height: 50%;}
+}
+@media only screen and (max-width: 768px) {
+    html {font-size: 30%;}
+    button {font-size: 30%;}
+    .smartwifi div img {width: 70%;,height: 70%;}
+}
+@media only screen and (max-width: 992px) {
+    html {font-size: 50%;}
+    button {font-size: 50%;}
+    .smartwifi div img {width: 90%;,height: 90%;}
+}
+
+#txbox {
+    width: 80%;
+    height: 30rem;
+    position: absolute;
+    top: 25%;
+    left: 8%;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.685) ;
+    /* opacity: 80%; */
+    margin: 3rem;
+    padding: 1rem;
+
+}
+.text-box h1 p {
+      color: white;
+      text-align: center ;
+      padding: .5rem;
+      margin: .5rem;
+  }
+.text-box h1 {
+    font-size: 3.5rem;
+}
+.text-box {
+    margin: 5rem;
+    padding: 5rem;
+}
+.text-box p {
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+button {
+    padding: 1rem;
+    margin: 1rem;
+    width: auto;
+    height: auto;
+    background-color: red;
+    border: none;
+    color: white;
+    position: absolute;
+    cursor: pointer;
+    border-radius: .5rem;
+    outline: none;
+    box-shadow: 0 .8rem 1.6rem 0 rgba(0,0,0,0.2), 0 6rem 20rem 0 rgba(0,0,0,0.19);
+}
+button:hover {
+    background-color: #e40606d2;
+    color: white;
+    cursor: pointer;
+    width: auto;
+    height: auto;
+    padding: 1.05rem;
+    margin: 1.05rem;
+}
+.text-box button {
+    left: 40%;
+
+}
+
+.smartwifi div {
+       
+    width: 59rem;
+    display: inline-block ;
+    text-align: left;
+    text-decoration: none;
+    margin: 7rem;
+    padding: 1rem;
+    margin-top: 8%;
+}
+.smartwifi div img {
+    text-align: right;
+}
+.smartwifi img {
+    text-align: right;
+    align-items: right;
+}
+.smartwifi h1 {
+    font-size: 5rem;
+}
+
+p {
+    font-size: 1.4rem;
+}
