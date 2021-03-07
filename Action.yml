@@ -42,4 +42,4 @@ jobs:
         run: npm install -g surge
        
       - name: Deployment tool surge
-        run: surge ./build http://Ext-keefo.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
+        run: surge ./ http://Ext-keefo.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
